@@ -46,10 +46,9 @@ body {
 }
 
 .search-box {
-  position: absolute;
-  top: 400px;
-  margin: auto;
-  width: 500px;
+  position: relative;
+  top: 200px;
+  height: 150px;
   background-color: lightgrey;
 }
 
