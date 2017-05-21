@@ -6,6 +6,7 @@ body {
 
 .header {
   height: 60px;
+  min-width: 1024px;
 }
 
 .upper-menu {
@@ -24,32 +25,91 @@ body {
 
 .google {
   position: relative;
-  top: 200px;
+  top: 138px;
   width: 400px;
   height: 100px;
   margin: auto;
-  left: 50px;
+  left: 72px;
 }
 
 .google img {
   position: relative;
   margin: auto;
-  left: 60px;
+  left: -8px;
 }
 
 .google #country {
   color: #4285f4;
   font: 16px/16px roboto-regular, arial, sans-serif;
   position: relative;
-  left: 277px;
+  left: 207px;
   bottom: 35px;
+}
+
+.search-field {
+  position: relative;
+  right: 85px;
+  bottom: 10px;
+  width: 582px;
 }
 
 .search-box {
   position: relative;
-  top: 200px;
+  top: -25px;
+  left: -69px;
   height: 150px;
-  background-color: lightgrey;
+}
+
+.search-bar-icons {
+  position: relative;
+  width: 63px;
+  left: 439px;
+  bottom: 54px;
+}
+
+.center-buttons {
+  margin: auto;
+  position: relative;
+  width: 250px;
+  bottom: 30px;
+}
+
+#left-button {
+  position: relative;
+  float: left;
+}
+
+#right-button {
+  position: relative;
+  float: right;
+  bottom: 15px;
+}
+
+.google-info {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+}
+
+.google-info a {
+  text-decoration: none;
+}
+
+#keyboard-search {
+  margin-right: 10px;
+  margin-bottom: 7px;
+  }
+
+#voice-search {
+  width: 25px;
+  padding: 2px 5px 0 0;
+}
+
+#search {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 .bottom-bar {
@@ -61,7 +121,7 @@ body {
   left: 0;
   border-top: 1px solid #e4e4e4;
   line-height: 40px;
-  min-width: 980px;
+  min-width: 1024px;
 }
 
 .bottom-bar .left {
