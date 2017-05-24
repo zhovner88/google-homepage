@@ -107,6 +107,20 @@ body {
   box-sizing: border-box;
 }
 
+#text-centered {
+  position: absolute;
+  left: 30%;
+}
+
+#text-centered a {
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+#text-centered a:hover {
+  text-decoration: underline;
+}
+
 .bottom-bar {
   position: absolute;
   background-color: #f2f2f2;
