@@ -52,7 +52,7 @@ body {
 .search-bar-icons {
   position: relative;
   left: 422px;
-  bottom: 73px;
+  bottom: 70px;
 }
 
 .center-buttons {
@@ -82,8 +82,22 @@ body {
   font-weight: bold;
   color: #646464;
   background-color: #eee;
-  font-size: 1em;
-  border-radius: 2px;
+  font-size: 13px;
+  border: 1px solid #f2f2f2;
+}
+
+#left-button:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#right-button:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .google-info a {
@@ -101,10 +115,15 @@ body {
 }
 
 #search {
+  background-color: #fff;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  border: none;
 }
 
 #text-centered {
